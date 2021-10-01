@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500;700&family=Open+Sans:wght@300;400&display=swap');
+@import '_backgrounds.scss';
+
+ul {
+  list-style: none;
+}
+
+.floors {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gemunu Libre', sans-serif;
+  color: #333;
+  text-transform: uppercase;
+  border: solid 1px green;
+  width: 100%;
+  padding: 18px;
+  margin: auto;
+  background-image: $sunrise;
+
+  li {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    min-height: 60px;
+    border: solid 1px $baby-blue;
+    background-image: $light-blue;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  .button_floor{
+    width: 30px;
+    height: 30px;
+    background-image: $bright-red;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin: 12px;
+  }
+  .button_floor:hover{
+    background-image: $strong-orange;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.2);
+  }
+
+  .elevator {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    border: solid 1px orange;
+    background-image: $zesty-orange;
+    width: 100px;
+    height: 80px;
+    border-radius: 15px;
+    p{
+      color: yellow;
+      margin-top: 1px;
+    }
+  }
+  .elevators {
+    margin: auto;
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: flex-end;
+    li{
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      border: solid 1px orange;
+      background-image: $zesty-orange;
+      width: 100px;
+      height: 80px;
+      border-radius: 15px;
+      p{
+        color: yellow;
+        margin-top: 1px;
+      }
+    }
+  }
+}

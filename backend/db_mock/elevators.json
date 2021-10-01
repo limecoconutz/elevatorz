@@ -1,0 +1,27 @@
+[
+  {
+     "id":1,
+     "status":"stationary",
+     "floor":3
+  },
+  {
+     "id":2,
+     "status":"stationary",
+     "floor":2
+  },
+  {
+     "id":3,
+     "status":"stationary",
+     "floor":20
+  },
+  {
+     "id":4,
+     "status":"stationary",
+     "floor":19
+  },
+  {
+     "id":5,
+     "status":"stationary",
+     "floor":1
+  }
+]
